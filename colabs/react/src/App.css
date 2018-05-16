@@ -1,28 +1,38 @@
-.App {
+
+body {
+  background-color: black;
+}
+
+.app-bkg {
+  display: flex;
+  justify-content: center;
+}
+
+.app__container {
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  font-family: 'Lato', 'lato' ,sans-serif;
+  background-color: #0B0146;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app__container-nav {
+  /* display: inline-block; */
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.container-nav-item {
+  background-color: white;
+  margin: 5%;
 }
 
-.App-title {
-  font-size: 1.5em;
+.app__container-img {
+  max-width: 100%;
+  height: auto;
 }
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app__container-bottom {
+  /* background-color: #0B0146; */
+  height: 100px;
 }
