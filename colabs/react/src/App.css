@@ -34,5 +34,21 @@ body {
 
 .app__container-bottom {
   /* background-color: #0B0146; */
-  height: 100px;
+  height: 100%;
+}
+
+.colab-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 100%;
+  color: white;
+}
+.colab-title {
+  font-size: 2rem;
+}
+.colab-img {
+  align-self: center;
+  max-width: 100%;
+  max-height: auto;
 }
